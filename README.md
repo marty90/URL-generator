@@ -1,6 +1,6 @@
 # URL generator
 
-This piece of code use a Generative Adversarial Network to train two models for (i) generating new URLs, and (ii) distinguish URLs belonging to the training class. It uses the Keras library to model neural networks. Both generator and discriminator are multilayer perceptrons.
+This piece of code use a Generative Adversarial Network to train two models for (i) generating new URLs, and (ii) distinguishing URLs belonging to the training class. It uses the Keras library to model neural networks. Both generator and discriminator are multilayer perceptrons.
 
 It needs a (potentially large) set of URLs as input. Those URLs must be homogeneous in order to let the models to succesfully catch the distribution of characters within them. For example, you may provide it a set of URLs for a video streaming service, or an AntiVirus update.
 
