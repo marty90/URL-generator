@@ -6,7 +6,10 @@ It needs a (potentially large) set of URLs as input. Those URLs must be homogene
 
 Running the code allows you to train a generator and a discriminator. Those models can be saved to disk in Keras format, and reused in any further piece of code. A sample of generated URLs can be saved as well.
 
+If you want further details, please read the paper: *Martino Trevisan and Idilio Drago. 2019. Robust URL Classification With Generative Adversarial Networks. SIGMETRICS Perform. Eval. Rev. 46, 3 (December 2018), 143–146,* available [here](https://iris.polito.it/retrieve/handle/11583/2723875/220102/url_gan.pdf).
+
 For any information or request write to [martino.trevisan@polito.it](mailto:martino.trevisan@polito.it).
+
 
 ## Prerequisites
 You need Python3 with Tensorflow and numpy installed.
